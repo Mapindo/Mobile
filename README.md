@@ -1,4 +1,4 @@
-# VBThreeMobile
+# Mapindo
 
 A new Flutter project.
 
