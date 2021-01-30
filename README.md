@@ -21,6 +21,9 @@ Fiziksel etkinlik düzenleyen kurum ve kişilerin işlerini kolaylaştırmak iç
   - Çoklu dil seçeneği
   - Harita Üzerinden Etkinlik Bulabilme
 
+## Proje Sunum
+
+[Sunum Dosyası](https://drive.google.com/file/d/1T_Nh4mQMYY32ClV_Qi3bHUT7D3kSdV19/view?usp=sharing)
 
 ## Kullanılan Teknolojiler
 - #### Front-end
