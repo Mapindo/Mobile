@@ -6,7 +6,7 @@
 
 
 
-<img width=350 src="https://github.com/Sutas-Personel/Mobile/blob/master/github/sutas.gif?raw=true">
+<img width=350 src="https://github.com/Mapindo/Mobile/blob/master/ezgif.com-video-to-gif.gif">
 
 ## İçerik
 Katılımcıların fiziksel etkinliklerde ilgi alanlarına göre çevrede gerçekleşen etkinliklerden anında haberdar olması ve aynı zamanda sosyalleşebilmesini sağlamak.
