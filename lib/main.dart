@@ -8,6 +8,10 @@ import 'core/constants/app_constants.dart';
 import 'core/init/notifiers/application_providers.dart';
 import 'core/init/notifiers/theme_notifier.dart';
 
+// view den importlar
+import 'views/onBoarding.dart';
+import 'views/signUp.dart';
+
 void main() {
   runApp(MultiProvider(
     providers: [...ApplicationProviders.instance.dependItems],
@@ -25,9 +29,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       theme: Provider.of<ThemeNotifier>(context, listen: true).currentTheme,
-      onGenerateRoute: Router.generateRoute,
+      //onGenerateRoute: Router.generateRoute,
       initialRoute: homeRoute,
+      routes: {
+        '/': (context) => OnBoardingPage(),
+      },
     );
   }
 }
