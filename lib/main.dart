@@ -11,6 +11,8 @@ import 'core/init/notifiers/theme_notifier.dart';
 // view den importlar
 import 'views/onBoarding.dart';
 import 'views/signUp.dart';
+import 'package:VBThreeMobile/views/category_screen/category.dart';
+import 'package:VBThreeMobile/views/select_profil_photo/select_photo.dart';
 
 void main() {
   runApp(MultiProvider(
@@ -34,7 +36,7 @@ class MyApp extends StatelessWidget {
       //onGenerateRoute: Router.generateRoute,
       initialRoute: homeRoute,
       routes: {
-        '/': (context) => OnBoardingPage(),
+        '/': (context) => SelectPhoto(),
       },
     );
   }
